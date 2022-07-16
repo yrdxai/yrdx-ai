@@ -14,7 +14,7 @@
 }
 
 .logo-header > img {
-    width: 180px;
+    width: 300px;
 }
 
 .header-title {
@@ -28,5 +28,5 @@
 }
 
 .header-divider {
-    border-bottom: 20px solid #77773c;
+    border-bottom: 20px solid #bd3c3c;
 }
