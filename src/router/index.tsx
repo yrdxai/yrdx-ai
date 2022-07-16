@@ -8,9 +8,9 @@ function AppRouter() {
     return (
             <div>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/ours-team" element={<OurTeam />} />
-                    <Route path="/contact-us" element={<ContactUs />} />
+                    <Route path="/yrdx-ai/" element={<Home />} />
+                    <Route path="/yrdx-ai/ours-team" element={<OurTeam />} />
+                    <Route path="/yrdx-ai/contact-us" element={<ContactUs />} />
                 </Routes>
             </div>
     )

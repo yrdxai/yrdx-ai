@@ -6,19 +6,19 @@ return (
         <nav className="navigation-bar">
             <Link 
             className="navigator-link"
-                to="/"
+                to="/yrdx-ai/"
                 >
                     Home
             </Link>
             <Link 
             className="navigator-link"
-                to="/ours-team"
+                to="/yrdx-ai/ours-team"
                 >
                     Our team
             </Link>
             <Link 
             className="navigator-link"
-                to="/contact-us"
+                to="/yrdx-ai/contact-us"
                 >
                     Contact us
                 </Link>
