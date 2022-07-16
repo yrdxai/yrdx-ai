@@ -1,5 +1,6 @@
 import Card from "../../components/card/Card"
 import Tile from "../../components/tile/Tile"
+import hightlightProjectImage1 from "../../assets/img/picture1.jpg"
 import "./Home.css"
 function Home() {
 
@@ -48,21 +49,9 @@ function Home() {
           </h1>
           <div className="column">
             <Tile 
-              tileImg="https://bieqa.github.io/images/appi_ajp_2014.gif"
-              tileDescription='Anqi Qiu*, Ta Anh Tuan, Mei Lyn Ong, Yue Li, Anne Rifkin-Graboi, Helen Chen, Birit FP Broekman, Kenneth Kwek, Seang-Mei Saw, Yap-Seng Chong, Peter D. Gluckman, Marielle V. Fortier, Joanna Dawn Holbrook, Michael J. Meaney, "COMT Haplotypes Modulate Associations of Antenatal Maternal Anxiety and Neonatal Cortical Morphology", American Journal of Psychiatry, 172(2):163-72, 2015. [FEATURE ARTICLE with Editors Special Comments, impact factor: 14.721]'
-              tileLink="https://bieqa.github.io/publications/appi_ajp_2014.pdf"
-            />
-
-            <Tile 
-              tileImg="https://bieqa.github.io/images/HBM_2014.gif"
-              tileDescription='Jamie Yu Jin Thong, Jia Du, Nagulan Ratnarajah, Yanhong Dong, Hock Wei Soon, Monica Saini, Ming Zhen Tan, Anh Tuan Ta, Christopher Chen and Anqi Qiu, "Abnormalities of Cortical Thickness, Subcortical Shapes, and White Matter Integrity in Subcortical Vascular Cognitive Impairment", Human Brain Mapping, 35(5):2320-2332, 2014.'
-              tileLink="https://bieqa.github.io/publications/hbm22330.pdf"
-            />
-
-            <Tile 
-              tileImg="https://bieqa.github.io/images/cover.gif"
-              tileDescription='Jamie Yu Jin Thong, Jia Du, Nagulan Ratnarajah, Yanhong Dong, Hock Wei Soon, Monica Saini, Ming Zhen Tan, Anh Tuan Ta, Christopher Chen and Anqi Qiu, "Abnormalities of Cortical Thickness, Subcortical Shapes, and White Matter Integrity in Subcortical Vascular Cognitive Impairment", Human Brain Mapping, 35(5):2320-2332, 2014.'
-              tileLink="https://bieqa.github.io/publications/hbm22125.pdf"
+              tileImg={hightlightProjectImage1}
+              tileDescription='Automatic Detection of Meniscus Tears Using Backbone Convolutional Neural Networks on Knee MRI; Truong Nguyen Khanh Hung, Vu Pham Thao Vy, Nguyen Minh Tri, Le Ngoc Hoang, Le Van Tuan, Quang Thai Ho, Nguyen Quoc Khanh Le, Jiunn-Horng Kang; Journal of Magnetic Resonance Imaging (doi: 10.1002/jmri.28283)'
+              tileLink="https://onlinelibrary.wiley.com/journal/15222586"
             />
           </div>
         </div>
