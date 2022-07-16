@@ -1,6 +1,4 @@
-import { Route } from "react-router-dom"
-
-function ContactUs(): RouteComonentProps<any> {
+function ContactUs() {
 
     return (
       <div className="contact-us">
