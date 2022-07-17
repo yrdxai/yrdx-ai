@@ -13,19 +13,19 @@ function Home() {
           <div className="row">
             <Card 
             cardLink="https://bieqa.github.io/manifold_shape.html"
-            cardImg="https://bieqa.github.io/images/res_pic/img1.jpg" cardTitle="Manifold Learning  &  Deep Learning" />
+            cardImg="https://bieqa.github.io/images/res_pic/img1.jpg" cardTitle="Deep Learning in Diagnosis of Lower Limb Diseases on MR Images" />
 
             <Card 
             cardLink="https://bieqa.github.io/subcortical_shape.html"
-            cardImg="https://bieqa.github.io/images/res_pic/LDDMM.png" cardTitle="LDDMM" />
+            cardImg="https://bieqa.github.io/images/res_pic/LDDMM.png" cardTitle="Deep Learning in Brain & Breast Cancer Prediction on MR Images" />
           
             <Card 
               cardLink="https://bieqa.github.io/Imaging_Genetics2.html"
-              cardImg="	https://bieqa.github.io/images/neonatal_anat_net.jpg" cardTitle="Imaging Genetics" />
+              cardImg="	https://bieqa.github.io/images/neonatal_anat_net.jpg" cardTitle="Graph Neural Network in Tracking Diversity of Stem Cells Development" />
             
             <Card 
               cardLink="https://bieqa.github.io/signal.html"
-              cardImg="https://bieqa.github.io/images/res_pic/img4.png" cardTitle="Signal Processing On Manifold" />
+              cardImg="https://bieqa.github.io/images/res_pic/img4.png" cardTitle="Deep Learning in Diabetic Retinopathy Analysis" />
           </div>
         </div>
         <div className="section">
