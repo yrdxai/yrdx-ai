@@ -4,8 +4,15 @@
     justify-items: flex-start;
     flex-direction: row;
     width: 100%;
-    max-width: 900px;
+    max-width: 90%;
     margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        flex-direction: column;
+    }
+
 }
 
 .navigator-link {

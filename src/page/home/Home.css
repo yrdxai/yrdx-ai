@@ -1,6 +1,6 @@
 .section {
     padding: 15px;
-    max-width: 900px;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -19,7 +19,7 @@
 .row {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     width: 100%;
     gap: 10px;
@@ -40,5 +40,6 @@
 @media screen and (max-width: 900px) {
     .row {
       flex-wrap: wrap;
+      align-items: flex-start;
     }
   }

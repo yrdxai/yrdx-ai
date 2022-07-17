@@ -1,7 +1,7 @@
 import "./OurTeam.css"
 import MemberTile, { MemberTileProps } from "../../components/member-tile/MemberTile"
 import picture1 from "../../assets/img/le-ngoc-hoang.png"
-import picture2 from "../../assets/img/vu-pham-thao-vy.png"
+import picture2 from "../../assets/img/vu-pham-thao-vy.jpg"
 import picture3 from "../../assets/img/nguyen-minh-tri.png"
 import picture4 from "../../assets/img/ngo-van-phat.png"
 import picture5 from "../../assets/img/nguyen-thuan-phat.png"
@@ -64,13 +64,13 @@ function OurTeam() {
   ]
   return (
     <div className="our-team">
-        <h1>Ours Members</h1>
+        <h1 className="section-title">Ours Members</h1>
         <div className="row flex-wrap center">
             {
               members.map((member) => <MemberTile avatar={member.avatar} fullName={member.fullName} role={member.role} descriptions={member.descriptions}/>)
             }
         </div>
-        <h1>Ours Advisors</h1>
+        <h1 className="section-title">Ours Advisors</h1>
         <div className="row flex-wrap center">
             {
               advisors.map((advisor) => <MemberTile avatar={advisor.avatar} fullName={advisor.fullName} role={advisor.role} descriptions={advisor.descriptions}/>)

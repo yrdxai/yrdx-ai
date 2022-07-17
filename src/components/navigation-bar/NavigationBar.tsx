@@ -18,6 +18,19 @@ return (
             </Link>
             <Link 
             className="navigator-link"
+                to="/yrdx-ai/publications"
+                >
+                    Publications
+            </Link> 
+            <Link 
+            className="navigator-link"
+                to="/yrdx-ai/fundings"
+                >
+                    Fundings
+            </Link>
+            
+            <Link 
+            className="navigator-link"
                 to="/yrdx-ai/contact-us"
                 >
                     Contact us
