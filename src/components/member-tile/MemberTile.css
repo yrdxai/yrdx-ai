@@ -1,0 +1,33 @@
+.member-tile {
+    width: 45%;
+    text-align: left;
+    height: fit-content;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 100px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.haft-width {
+    width: 50%;
+}
+
+.member-name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+  font-size: 14px;  
+}
+

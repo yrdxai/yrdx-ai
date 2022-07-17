@@ -1,0 +1,8 @@
+.center {
+    margin: auto;
+    justify-content: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
