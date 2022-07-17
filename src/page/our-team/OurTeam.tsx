@@ -13,7 +13,7 @@ function OurTeam() {
     {
       avatar: picture1,
       fullName: "Le Ngoc Hoang",
-      role: "Lead Reseacher",
+      role: "Lead Researcher",
       descriptions: ["M.S. of College of Biomedical Engineering, Taipei Medical University", "Founder of YRDx-AI Laboratory"]
     },
     {
