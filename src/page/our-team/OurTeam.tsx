@@ -1,7 +1,7 @@
 import "./OurTeam.css"
 import MemberTile, { MemberTileProps } from "../../components/member-tile/MemberTile"
 import picture1 from "../../assets/img/le-ngoc-hoang.png"
-import picture2 from "../../assets/img/vu-pham-thao-vy.jpg"
+import picture2 from "../../assets/img/vu-pham-thao-vy.jpeg"
 import picture3 from "../../assets/img/nguyen-minh-tri.png"
 import picture4 from "../../assets/img/ngo-van-phat.png"
 import picture5 from "../../assets/img/nguyen-thuan-phat.png"

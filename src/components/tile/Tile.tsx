@@ -11,6 +11,7 @@ function Tile(props: TileProps) {
             <img src={props.tileImg} alt="tile-image" />
             <div className="tile-content">
                 <p className="tile-description">{props.tileDescription}</p>
+                <a href={props.tileLink} target="_blank">[PDF]</a>
             </div>
         </div>
     )

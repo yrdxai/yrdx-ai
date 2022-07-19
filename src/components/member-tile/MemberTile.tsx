@@ -11,11 +11,15 @@ function MemberTile(props: MemberTileProps) {
     return (
         <div className="member-tile flex-wrap">
             <div className="row align-start">
+                
                 {
                 props.avatar ?
-                <img 
-                className="avatar"
-                src={props.avatar} alt="avatar" /> : null}
+                <div className="avatar-container">
+                    <img 
+                    className="avatar"
+                    src={props.avatar} alt="avatar" />
+                </div>
+                : null}
                 <div className="description">
                     <h4
                     className="member-name"
